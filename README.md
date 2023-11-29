@@ -303,4 +303,8 @@ public class AllProjectActivity extends AppCompatActivity {
 <img width="1080" alt="image" src="https://github.com/Febriyaninurhida123/mobile_programming_TGS10/assets/90132092/bbf8890d-77de-45a7-b82e-8882b21d2ed5">
 
 ## berikut adalah demo dari project :
-Screen_recording_20231130_002049.mp4
+
+
+https://github.com/Febriyaninurhida123/mobile_programming_TGS10/assets/90132092/fb239cb8-9b03-428f-b907-f8e698f113de
+
+
