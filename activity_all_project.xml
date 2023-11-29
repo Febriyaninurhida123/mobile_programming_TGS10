@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFDCF1"
+    android:orientation="vertical"
+    tools:context=".AllProjectActivity">
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="601dp"
+        android:layout_margin="8dp"
+        android:alignmentMode="alignMargins"
+        android:columnCount="2"
+        android:columnOrderPreserved="false"
+        android:rowCount="4">
+
+        <!-- Button Hello -->
+        <ImageButton
+            android:id="@+id/button_project_hallo"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_margin="8dp"
+            android:background="@drawable/circle_button_background"
+            android:onClick="launchHalloProject"
+            android:padding="16dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/hello" />
+
+        <!-- Button Sianida -->
+        <ImageButton
+            android:id="@+id/button_project_sianida"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_margin="8dp"
+            android:background="@drawable/circle_button_background"
+            android:onClick="launchSianidaProject"
+            android:padding="16dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/alchemy" />
+
+        <!-- Button Count -->
+        <ImageButton
+            android:id="@+id/button_project_count"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_margin="8dp"
+            android:background="@drawable/circle_button_background"
+            android:onClick="launchCountProject"
+            android:padding="16dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/counting" />
+
+        <!-- Button TwoActivity -->
+        <ImageButton
+            android:id="@+id/button_TwoActivity"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_margin="8dp"
+            android:background="@drawable/circle_button_background"
+            android:onClick="launchTwoActivity"
+            android:padding="16dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/messege" />
+
+        <!-- Button Map -->
+        <ImageButton
+            android:id="@+id/button_map"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_margin="8dp"
+            android:background="@drawable/circle_button_background"
+            android:onClick="launchMap"
+            android:padding="16dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ssw" />
+
+        <!-- Button Alarm -->
+        <ImageButton
+            android:id="@+id/button_Alarm"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_margin="8dp"
+            android:background="@drawable/circle_button_background"
+            android:onClick="createAlarm"
+            android:padding="16dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/clock" />
+    </GridLayout>
+
+    <ImageButton
+        android:id="@+id/button_quit"
+        android:layout_width="80dp"
+        android:layout_height="68dp"
+        android:layout_gravity="center|bottom"
+        android:layout_margin="8dp"
+        android:background="@drawable/circle_button_background"
+        android:onClick="quitButtonClick"
+        android:padding="16dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/log" />
+
+</LinearLayout>
